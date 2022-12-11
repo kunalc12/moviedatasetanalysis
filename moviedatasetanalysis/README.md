@@ -1,3 +1,6 @@
+# Project deployment link:
+https://leafy-raindrop-07ee85.netlify.app/
+
 # Frontend
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.2.
