@@ -1,0 +1,26 @@
+<div class="cd-content-wrapper">
+    <div class="text-component text-center">
+<p> Director Wise Data Analysis</p>
+<hr>
+<!-- <canvas id="piechart"></canvas> -->
+
+<!-- <li *ngFor="let user of userArray">
+  {{user | json}}
+</li> -->
+<table>
+    <tr>
+      <th>Director</th>
+      <th>Minimum Rating</th>
+      <th>Maximum Rating</th>
+      <th>Average Rating</th>
+    </tr>
+    <tr *ngFor="let user of userArray">
+      <td>{{user.directedby}}</td>
+      <td>{{user.min}}</td>
+      <td>{{user.max}}</td>
+      <td>{{user.avg}}</td>
+    </tr>
+  </table>
+  
+</div>
+</div>

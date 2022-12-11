@@ -1,0 +1,22 @@
+<div class="cd-content-wrapper">
+  <div class="text-component text-center">
+<p> Year Wise Data Analysis</p>
+<hr>
+<!-- <canvas id="piechart"></canvas> -->
+
+<!-- <li *ngFor="let user of userArray">
+{{user | json}}
+</li> -->
+<table>
+  <tr>
+    <th>Year</th>
+    <th>Number of movies released</th>
+   </tr>
+  <tr *ngFor="let user of userArray">
+    <td>{{user.year}}</td>
+    <td>{{user.Total_Movies_Released}}</td>
+  </tr>
+</table>
+
+</div>
+</div>

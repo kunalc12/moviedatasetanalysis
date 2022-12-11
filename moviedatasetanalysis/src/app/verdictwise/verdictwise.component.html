@@ -1,0 +1,22 @@
+<div class="cd-content-wrapper">
+  <div class="text-component text-center">
+<p> Verdict Wise Data Analysis</p>
+<hr>
+<!-- <canvas id="piechart"></canvas> -->
+
+<!-- <li *ngFor="let user of userArray">
+{{user | json}}
+</li> -->
+<table>
+  <tr>
+    <th>Verdict</th>
+    <th>Total count of movies</th>
+   </tr>
+  <tr *ngFor="let user of userArray">
+    <td>{{user.analysis}}</td>
+    <td>{{user.count}}</td>
+  </tr>
+</table>
+
+</div>
+</div>
